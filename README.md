@@ -1,5 +1,9 @@
 # BlogPhoenix
 
+A simple blog in Elixir/Phoenix
+
+# Installation and Runnin
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
