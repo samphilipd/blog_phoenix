@@ -1,0 +1,4 @@
+<tr>
+  <td><%= @comment.name %></td>
+  <td><%= @comment.content %></td>
+</tr>

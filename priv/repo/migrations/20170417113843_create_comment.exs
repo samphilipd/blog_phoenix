@@ -5,7 +5,7 @@ defmodule BlogPhoenix.Repo.Migrations.CreateComment do
     create table(:comments) do
       add :name, :string
       add :content, :text
-      add :post_id, references(:posts, on_delete: :nothing)
+      add :post_id, references(:posts, on_delete: :nothing), null: false
 
       timestamps()
     end

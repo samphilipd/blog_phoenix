@@ -14,7 +14,7 @@ defmodule BlogPhoenix.Comment do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :content])
-    |> validate_required([:name, :content])
+    |> cast(params, [:name, :content, :post_id])
+    |> validate_required([:name, :content, :post_id])
   end
 end
